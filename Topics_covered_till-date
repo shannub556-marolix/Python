@@ -1,0 +1,36 @@
+what is python
+who discovered python
+mostly which companies use python
+features of python 
+    easy to learn
+    free and opensource
+    high level programming language
+    platform independent
+    dynamically typed
+    interpreted language
+    extension library
+identifiers rules
+    cannot start with number
+    special characters not allowec except '_'
+    keywords cannot be used as identifiers
+Datatypes
+    integer,boolen,float,complex
+    string,list,set,tuple,dictonary
+operatots
+    arthematic operators
+    relational operators
+    logical operators
+input/output
+conditional statements
+iterative statements
+    for loop 
+    while loop
+github and gitbash
+    push to origin main
+string
+    indexing, slicing
+    in, not in (operator)
+    replace method
+    split method
+    len method
+    
