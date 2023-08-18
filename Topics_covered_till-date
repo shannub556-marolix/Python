@@ -33,4 +33,7 @@ string
     replace method
     split method
     len method
-    
+    adding two strings(+), string replication(*)
+    strip method
+    comparing two strings
+    find method
