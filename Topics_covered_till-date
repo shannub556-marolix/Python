@@ -26,7 +26,7 @@ iterative statements
     for loop 
     while loop
 github and gitbash
-    push to origin main
+    push to origin main and to edit files in same repsository
 string
     indexing, slicing
     in, not in (operator)
@@ -39,3 +39,16 @@ string
     find method
     index method
     join method
+    Case Convertions
+        Upper method
+        lower method
+        title method
+        captialize method
+        swap case method
+    isalnum() 
+    isalpha()
+    isnum()
+    isdigit()
+    islowe()
+    isupper()
+    isspace()
