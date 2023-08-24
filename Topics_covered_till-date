@@ -39,6 +39,8 @@ string
     find method
     index method
     join method
+    startswith()
+    endswith()
     Case Convertions
         Upper method
         lower method
