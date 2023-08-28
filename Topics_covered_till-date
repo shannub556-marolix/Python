@@ -54,3 +54,20 @@ string
     islowe()
     isupper()
     isspace()
+list
+    list declaration, and creation
+    eval input method
+    accesing elements in a list
+    replacing a element (indexing)
+    while and for loop
+    len 
+    count
+    index method
+    append method
+    insert method
+    extend method
+    pop method
+    remove method
+    
+    
+    
