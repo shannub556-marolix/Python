@@ -68,6 +68,10 @@ list
     extend method
     pop method
     remove method
+    reverse method
+    sort method(natural order)
+    aliasing and cloning of list
+
     
     
     
