@@ -70,7 +70,20 @@ list
     remove method
     reverse method
     sort method(natural order)
-    aliasing and cloning of list
+    aliasing and cloning of list (temporary variable concept)
+    mathematical operations on list
+        list replication(*)
+        list concatination(+)
+    comparing list objects (==,>,<,!=)
+    membership operator
+    clear method(it will reomve all elements from list in existing location)
+    nested list (a list inside a list)
+    list comprehension (simplest form of syntax in list, terinary operator)
+    removing duplicates in a given list
+    creating a list using for loop
+    
+
+
 
     
     
