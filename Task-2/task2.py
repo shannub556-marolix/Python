@@ -34,7 +34,7 @@ print()
 
 print('4.write a python program to delete element of given index in list.')
 l=list(eval(input('enter a group of elements separated by comma(,) in a single line: ')))
-index=int(input('enter a index position which you want to remove: '))
+index=eval(input('enter a index position which you want to remove: '))
 l.pop(index)
 print(f'list after removing element in given index position: {l}')
 
@@ -43,7 +43,7 @@ print()
 
 print('5.write a python program to delete given elemet from the list.')
 l=list(eval(input('enter a group of elements separated by comma(,) in a single line: ')))
-element=int(input('enter a element to remove from list: '))
+element=eval(input('enter a element to remove from list: '))
 l.remove(element)
 print(f'list after removing given elements from list: {l}')
 
@@ -52,8 +52,8 @@ print()
 
 print('6.write a python program to insert an elemet  at given index location.')
 l=list(eval(input('enter a group of elements separated by comma(,) in a single line: ')))
-index=int(input('enter a index position to insert element at that position'))
-element=input('enter a element to insert in a list: ')
+index=eval(input('enter a index position to insert element at that position: '))
+element=eval(input('enter a element to insert in a list: '))
 l.insert(index,element)
 print(f'list after inserting elements at a given index position: {l}')
 
@@ -86,7 +86,7 @@ print(list_fun())
 print()
 print()
 
-print('Write a Python program to remove a specified column from a given nested list.')
+print('Write a Python program to remove a specified column from a given nested list. Original Nested list: [[1, 2, 3], [2, 4, 5], [1, 1, 1]]')
 l=[[1, 2, 3], [2, 4, 5], [1, 1, 1]]
 l1=[]
 for i in range(int(len(l))):
@@ -109,6 +109,5 @@ print()
 print()
 
 print('10.Write a Python program to remove duplicates from a list.')
-l1=list(eval(input('enter a group of elements separated by comma(,) in a single line: ')))
-new_list=list(set(l1))
-print(f'list after removing duplicates: {new_list}')
+l1=list(set(eval(input('enter a group of elements separated by comma(,) in a single line: '))))
+print(f'list after removing duplicates: {l1}')
