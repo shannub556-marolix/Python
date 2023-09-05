@@ -81,8 +81,35 @@ list
     list comprehension (simplest form of syntax in list, terinary operator)
     removing duplicates in a given list
     creating a list using for loop
+tuple
+    accesing elements in tuple(index,slicing)
+    len method
+    sort method
+    count method
+    index method
+    min method
+    tuple comprehension
+dictonary
+    add items in a dictonary
+    accesing items in dictonary
+        dictonary.items() , to get all items in dictonary
+        dictonary.keys() , to get all keys in dictonary
+        dictonary.values(), to get all values in dictonary
+        dictonary[key] , to get value assigned to that key in dictonary
+    del dictonary[key] , to delete that given key and value
+    del dictonary , it will delete entire dictonary
+    dictonary.clear() , it delete items in dictonary
+    get method , to get value of given key
+    pop method , it will remove tha key value pair and return that value
+    popitem method, it removes last key value pair and return's it in the form of tuple
     
 
+Functions
+    how to create a function
+    Advantages of function
+    Types of arguments
+        positonal arguments
+        keyword arguments
 
 
     

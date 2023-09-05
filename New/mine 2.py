@@ -15,8 +15,14 @@ index=eval(input('enter a index position to insert element at that position'))
 element=input('enter a element to insert in a list: ')
 l.insert(index,element)
 print(f'list after inserting elements at a given index position: {l}')
+
+
+l1=list(eval(input('enter a group of elements separated by comma(,) in a single line: ')))
+l2=list(eval(input('enter a group of elements separated by comma(,) in a single line: ')))
+merged_list=l1+l2
+print(merged_list)
+
 '''
 
-print('10.Write a Python program to remove duplicates from a list.')
-l1=list(set(eval(input('enter a group of elements separated by comma(,) in a single line: '))))
-print(f'list after removing duplicates: {l1}')
+s=eval[input()]
+print(s)
