@@ -110,8 +110,11 @@ Functions
     Types of arguments
         positonal arguments
         keyword arguments
-
-
+        Default arguments (giving a default value for a positional arguments)
+        variable length arguments
+        variable length keyword arguments
+    local and global variable 
+    
     
     
     
