@@ -22,7 +22,43 @@ l2=list(eval(input('enter a group of elements separated by comma(,) in a single 
 merged_list=l1+l2
 print(merged_list)
 
-'''
 
-s=eval[input()]
-print(s)
+
+print('2.Write a Python script to check whether a given key already exists in a dictionary.')
+d={'a': 100, 'b': 200, 'c':300}
+key=input('enter a key to check')
+if d.get(key) == None:
+    print('Given key is not in dictnoary')
+else:
+    print('given key is in dictonary')
+
+
+
+d={'a': 300, 'b': 200, 'd':400}
+sum=()
+for i in d.items():
+    sum+=i
+print(sum)
+
+
+print('7.Write a Python program to combine two dictionary by adding values for common keys.')
+d1 = {'a': 100, 'b': 200, 'c':300}
+d2 = {'a': 300, 'b': 200, 'd':400}
+for key in d1.keys():
+    if key in d2.keys():
+        d2[key]=d1.get(key)+d2.get(key)
+    else:
+        d2[key]=d1.get(key)
+print(d2)
+
+
+
+print('8.Write a Python program to access dictionary keys element by index.')
+d={'physics': 23, 'math': 67, 'chemistry':88}
+index=int(input('enter a index position from 0 to 2: '))
+print(list(d.keys())[index])
+'''
+d1={'a': 300, 'b': 200, 'd':400}
+d2={'a': 100, 'b': 200, 'c':300}
+d1.update(d2)
+print(d1)
