@@ -116,7 +116,9 @@ Functions
     local and global variable 
 recursions
 lamda Functions
-filter 
-    
+filter function
+map function
+reduce Function
+nested function    
     
     
