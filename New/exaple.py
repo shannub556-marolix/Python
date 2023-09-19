@@ -1,4 +1,10 @@
-print('write a programm to filter even or odd')
-l=eval(input('enter a numbers that you want in a single line sperated by comma(,): '))
-f=filter(lambda n : True if n%2==0 else False,l)
-print(list(f))
+def add(a,b,c=120):
+    print('hello')
+    print(a,b)
+    print(c)
+
+print(add(10,20,30))
+
+d=[{'name':'shannu','roll':'12'}]
+d[0].pop('name')
+print(d)
