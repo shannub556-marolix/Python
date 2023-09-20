@@ -11,6 +11,7 @@ def add():
         d['Domain']=input('Enter domain of the emplpoyee: ')
         d['Email']=input('Enter email of the employee: ')
         details.append(d)
+        print(f'Employee-{i} added succesfully')
         print()
     print()
     print()
@@ -24,6 +25,7 @@ def remove():
         for i in details:
             if ch == i.get('Name') or (ch == i.get('Emp id') or (ch == i.get('Domain') or ch == i.get('Email'))) :
                 details.remove(i)
+                print(f'Employee with attribute {ch} has been removed succefully')
                 break
         else :
             print('employee with given attribute not found: ')
@@ -36,15 +38,19 @@ def remove():
         for i in range(len(details)):
             if ch == details[i].get('Name') :
                 details[i].pop('Name')
+                print('Attribute has been removed ')
                 break
             elif ch == details[i].get('Emp id'):
                 details[i].pop('Emp id')
+                print('Attribute has been removed ')
                 break
             elif ch == details[i].get('Domain'):
                 details[i].pop('Domain')
+                print('Attribute has been removed ')
                 break
             elif ch == details[i].get('Email'):
                 details[i].pop('Email')
+                print('Attribute has been removed ')
                 break
         else :
             print('employee with given attribute not found: ')
@@ -52,7 +58,8 @@ def remove():
         print()
         con()
     elif n== 'd':
-        details.clear() 
+        details.clear()
+        print('all the Employees details were cleared succesfully') 
         print()
         print()
         con()
