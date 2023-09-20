@@ -65,6 +65,7 @@ def p():
         for i in details:
             if ch == i.get('Name') or (ch == i.get('Emp id') or (ch == i.get('Domain') or ch == i.get('Email'))) :
                 print(i)
+                break
         else :
             print('employee with given attribute not found: ')
         print()
