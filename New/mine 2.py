@@ -57,8 +57,27 @@ print('8.Write a Python program to access dictionary keys element by index.')
 d={'physics': 23, 'math': 67, 'chemistry':88}
 index=int(input('enter a index position from 0 to 2: '))
 print(list(d.keys())[index])
-'''
+
 d1={'a': 300, 'b': 200, 'd':400}
 d2={'a': 100, 'b': 200, 'c':300}
 d1.update(d2)
 print(d1)
+
+
+from functools import *
+h=[]
+def add(*args):
+    result=reduce(lambda a,b: (a*b),*args)
+    print(f'sum of numbers is :{result}')
+    h.append(f'sum is {result}')
+
+a=eval(input('Enter values separated by comma(","): '))
+add(a)
+    
+'''
+d={'shannu':('shannu',67,45),'sriran':(67,34,23) }
+print(d.items())
+for i in d.items():
+    print(i)
+s=[('shan',34),]
+print(dict(s))

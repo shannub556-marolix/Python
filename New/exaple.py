@@ -27,7 +27,6 @@ for key in d1.keys():
 print(d2)
 
 
-'''
 
 
 for i in range(5,1,-1):
@@ -36,3 +35,28 @@ for i in range(5,1,-1):
     print()
 
 
+
+s='we are code1rs2 3'
+s1=sorted(s)
+l=[1,35,5,'a']
+
+print(l)
+
+t=sorted(s)
+print(t)
+
+'''
+
+s=input('neter ')
+s1=input('enter')
+s=s.lower()
+s1=s1.lower()
+s=sorted(s)
+s1=sorted(s1)
+if len(s)==len(s1):
+    if s==s1:
+        print('anagram')
+    else:
+        print('not anagram')
+else:
+    print('not anagram')
