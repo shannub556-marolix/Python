@@ -1,5 +1,4 @@
-'''Hello guys take a look at below questions and submit 
-
+'''
 1.write a program to create a calculator using functions (sum,sub,mul,div)
 
 Variable length arguments. 
