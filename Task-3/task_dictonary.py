@@ -60,12 +60,18 @@ print()
 print('7.Write a Python program to combine two dictionary by adding values for common keys.')
 d1 = {'a': 100, 'b': 200, 'c':300}
 d2 = {'a': 300, 'b': 200, 'd':400}
-for key in d1.keys():
-    if key in d2.keys():
-        d2[key]=d1.get(key)+d2.get(key)
-    else:
-        d2[key]=d1.get(key)
-print(d2)
+d3={}
+d4={}
+d3.update(d2)
+d3.update(d1)
+for key in d3.keys():
+    if key in d1 and key in d2 :
+        d4[key]=d1.get(key)+d2.get(key)
+    elif key in d1:
+        d4[key]=d1.get(key)
+    elif key in d2:
+        d4[key]=d2.get(key)
+print(d4)
 
 print()
 print()
