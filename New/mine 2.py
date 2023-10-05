@@ -74,7 +74,7 @@ def add(*args):
 a=eval(input('Enter values separated by comma(","): '))
 add(a)
     
-'''
+
 #Variable length arguments. 
 #2. Write a program to enter employee details and also filter the stored employee  details  with name and empid and designation and email. 
 Employees = {}
@@ -104,3 +104,24 @@ print(Employees)
 
 
 fliter_stored_employees_details()
+'''
+
+class Example:
+ 
+    def display(self,name):
+        print(name)
+    
+    def merg(slef):
+        print('printing')
+
+s=Example()
+s.merg()
+s.display('shannu')
+
+
+class student:
+    def dis(self,name):
+        print(name,'hello')
+
+c1=student()
+c1.dis('shan')

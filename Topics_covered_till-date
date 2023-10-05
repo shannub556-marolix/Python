@@ -49,7 +49,6 @@ string
         swap case method
     isalnum() 
     isalpha()
-    isnum()
     isdigit()
     islowe()
     isupper()
@@ -127,4 +126,17 @@ math module
     ceil() 
     floor()
 packages in python 
+
+oops 
+    Introduction to oops concept
+        what is class and objects
+        how to define class 
+        how to create objects
+        variables and methods in oops
+        reference  variable 
+    constructor (__init__)
+        what is constructor
+        why and what happens when we call constructor
+        
+
     
