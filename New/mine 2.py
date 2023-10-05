@@ -128,6 +128,11 @@ print(d3)
 print(d4)
 '''
 class Example:
+    def __init__(self,name,age):
+        self.name= name
+        self.age=age
+        print('hello')
+        print(self.name)
 
     def display(self,name):
         print(name)
@@ -135,15 +140,9 @@ class Example:
     def merg(slef):
         print('printing')
 
-s=Example()
-s.merg()
-s.display('shannu')
+s=Example('shan',32)
 
 
-class student:
-    def dis(self,name):
-        print(name,'hello')
 
-c1=student()
-c1.dis('shan')
+
 

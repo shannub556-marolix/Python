@@ -137,6 +137,11 @@ oops
     constructor (__init__)
         what is constructor
         why and what happens when we call constructor
+    types of variable
+        instance variable = variable which are intialized at the time of object creation   
+            how to declare and in how many ways we can declare   
+            how to delete 
+            how to access and how to modify
         
 
     
