@@ -128,21 +128,39 @@ print(d3)
 print(d4)
 '''
 class Example:
+    name='shanu'
     def __init__(self,name,age):
         self.name= name
         self.age=age
+        Example.age=89
         print('hello')
         print(self.name)
 
     def display(self,name):
         print(name)
+        print(Example.name)
     
     def merg(slef):
         print('printing')
 
 s=Example('shan',32)
 
+print(Example.__dict__)
+s.display('ravu')
+print(Example.name)
+
+# def modify(fun):
+#     def fun1(a,b):
+        
+#         if a<b:
+#             a,b=b,a
+#         fun(a,b)
+#     return fun1
+
+# @modify
+# def hello(a,b):
+#     print(a/b)
+    
 
 
-
-
+# hello(8,4)
