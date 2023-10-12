@@ -128,26 +128,58 @@ print(d3)
 print(d4)
 '''
 class Example:
-    name='shanu'
+    name='shannu' #stat
     def __init__(self,name,age):
         self.name= name
         self.age=age
-        Example.age=89
-        print('hello')
-        print(self.name)
-
-    def display(self,name):
-        print(name)
-        print(Example.name)
+        #staic 
+        # print('hello')
+        # print(self.name)
     
-    def merg(slef):
+    age=88
+    def display(self,name):
+        c1=98   #local
+        Example.game='pubg' #static 
+        self.duc='eg'
+        # print(name)
+        # print(Example.name)
+    
+    def merg(self):
         print('printing')
+        self.se()
+    
+    @classmethod
+    def se(cls):
+        cls.name='shannnu'
+        Example.de='23'
+        print(cls.name)
+        print(Example.de)
+
+    @staticmethod
+    def m2():
+        Example.run='43'
+        print('this is static method')
+        print(Example.run)
+    
+    
+
+        
 
 s=Example('shan',32)
+s1=Example('fun',56)
+s.se()
+s1.m2()
 
-print(Example.__dict__)
-s.display('ravu')
-print(Example.name)
+# print(Example.age)
+# s.name='dfdf'
+# print(s.age)
+# print(s.__dict__)
+# print(Example.__dict__)
+
+# print(Example.__dict__)
+# s.display('ravu')
+# print(Example.name)
+
 
 # def modify(fun):
 #     def fun1(a,b):

@@ -49,6 +49,7 @@ string
         swap case method
     isalnum() 
     isalpha()
+    isnum()
     isdigit()
     islowe()
     isupper()
@@ -126,7 +127,7 @@ math module
     ceil() 
     floor()
 packages in python 
-
+    
 oops 
     Introduction to oops concept
         what is class and objects
@@ -150,6 +151,9 @@ oops
             how to declare and in how many ways we can do that
             how to delete 
             where can we acces and modify
-
-
-    
+    types of methods 
+        instance method= we declare instance variables iniside method and if we pass first variable as self 
+        class method = we declare static variable inside method and pass cls as first variable and will decorate that method with classmethod using decorator
+        static method = we wont pass cls or slef as first variable and we decorate that method with static method using decoarter
+    inner class 
+            similar to that nested loops and all , it is same it will be having class and inside we will be having another class 
