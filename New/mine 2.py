@@ -150,16 +150,16 @@ class Example:
     
     @classmethod
     def se(cls):
-        cls.name='shannnu'
+        cls.name='shannu'
         Example.de='23'
         print(cls.name)
         print(Example.de)
 
     @staticmethod
     def m2():
-        Example.run='43'
+        run='43'
         print('this is static method')
-        print(Example.run)
+        print(run)
     
     
 

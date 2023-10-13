@@ -157,3 +157,5 @@ oops
         static method = we wont pass cls or slef as first variable and we decorate that method with static method using decoarter
     inner class 
             similar to that nested loops and all , it is same it will be having class and inside we will be having another class 
+    
+    Inheritance = 
