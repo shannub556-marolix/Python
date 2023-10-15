@@ -1,8 +1,14 @@
+# Theme= Basic modle demonstrating how netbanking works in a real-time project
+#You can create your bank account with a unique user-id and deposit ,withdrawal, Balance enquiry and Accesing admin panel are the major features 
+# Use '123' for admin login 
+
+
 class Banking:
     def __init__(self):
         print(
             '_____________________________________________________________________WELOCOME TO HELLO BANK______________________________________________________________________')
         print()
+        self.admin_login={'password':'123'}
         self.all = [{}]
         self.menu()
 
@@ -140,37 +146,45 @@ class Banking:
     
     def admin(self):
             print('------------------------------WELCOME TO ADMIN PANEL------------------------------------------')
-            print('''Select options from dropdown
-                            1.customer details by name  
-                            2.All customer details 
-                            3.Customer details with less minimal balance
-                    For Customer details press 1 , To fetch all customers  press 2, TO filter press 3, ''')
-            n = input()
-            if n=='1':
-                x=input('Enter customer name')
-                for cs in self.all:
-                    if x == cs.get('Name'):
+            p=input('Enter password to access admin panel')
+            if p == self.admin_login.get('password'):
+                print('''Select options from dropdown
+                                1.customer details by name  
+                                2.All customer details 
+                                3.Customer details with less minimal balance
+                        For Customer details press 1 , To fetch all customers  press 2, TO filter press 3, ''')
+                n = input()
+                if n=='1':
+                    x=input('Enter customer name')
+                    for cs in self.all:
+                        if x == cs.get('Name'):
+                            print(cs)
+                            print('-----------------Customer details fetched succesfully--------------- ')
+                            s=input('press any key to continue')
+                            break
+                    else:
+                        print('Customer with given name unavailable')
+                        s=input('press any key to continue')
+                elif n=='2':
+                    for cs in self.all:
                         print(cs)
                         print('-----------------Customer details fetched succesfully--------------- ')
                         s=input('press any key to continue')
-                        break
-                else:
-                    print('Customer with given name unavailable')
-                    s=input('press any key to continue')
-            elif n=='2':
-                for cs in self.all:
-                    print(cs)
-                    print('-----------------Customer details fetched succesfully--------------- ')
-                    s=input('press any key to continue')
-                        
-            elif n=='3':
-                x=input('Enter the margin amount to fetch customers with less than that minimal amount ')
-                for cs in self.all:
-                    if int(x)>int(cs.get('Balance')):
-                        print(cs)
-                else :
-                    print('-----------------Customer details fetched succesfully--------------- ')
-                    s=input('press any key to continue')
+                            
+                elif n=='3':
+                    x=input('Enter the margin amount to fetch customers with less than that minimal amount ')
+                    for cs in self.all:
+                        if int(x)>int(cs.get('Balance')):
+                            print(cs)
+                    else :
+                        print('-----------------Customer details fetched succesfully--------------- ')
+                        s=input('press any key to continue')
+            else:
+                print('----------------------Invalid Password--------------------')
+                s=input('press any key to continue')
+
+
+
 
                 
 s = Banking()
