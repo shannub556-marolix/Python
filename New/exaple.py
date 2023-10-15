@@ -47,16 +47,20 @@ print(t)
 
 '''
 
-s=input('neter ')
-s1=input('enter')
-s=s.lower()
-s1=s1.lower()
-s=sorted(s)
-s1=sorted(s1)
-if len(s)==len(s1):
-    if s==s1:
-        print('anagram')
-    else:
-        print('not anagram')
-else:
-    print('not anagram')
+# s=input('neter ')
+# s1=input('enter')
+# s=s.lower()
+# s1=s1.lower()
+# s=sorted(s)
+# s1=sorted(s1)
+# if len(s)==len(s1):
+#     if s==s1:
+#         print('anagram')
+#     else:
+#         print('not anagram')
+# else:
+#     print('not anagram')
+
+
+for i in range('3'):
+    print(i)
