@@ -165,3 +165,8 @@ oops
             multiple Inheritance
             multi-level Inheritance
             herichical Inheritance
+            hybrid Inheritance
+            cycle Inheritance(But python does'nt support this type)
+
+        super method  in Inheritance
+            #We
