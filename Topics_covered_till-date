@@ -180,4 +180,7 @@ oops
                 #       In special case we can access them by using this synatx: super(child-class_name,cls).m2(cls)
                 #
                 #case4:from child class, static method we cannot access anything by using
-                #       but in special case we can access static method by using this syntax: super(child-class_name,child-class_name).m3()        
+                #       but in special case we can access static method by using this syntax: super(child-class_name,child-class_name).m3()
+                
+    Polymorphism
+        Executing the same thing in different way 
