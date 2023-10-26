@@ -62,5 +62,5 @@ print(t)
 #     print('not anagram')
 
 
-for i in range('3'):
-    print(i)
+d={'sh':34}
+print(d.get('id'))
