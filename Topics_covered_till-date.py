@@ -1,3 +1,4 @@
+'''
 what is python
 who discovered python
 mostly which companies use python
@@ -183,4 +184,22 @@ oops
                 #       but in special case we can access static method by using this syntax: super(child-class_name,child-class_name).m3()
                 
     Polymorphism
-        Executing the same thing in different way 
+        Executing the same thing in different way like, '+' is concatination in terms of string and addition interms of integers
+        Overloading : Python supports Operator Overloading('+')
+        Overridding : python supports Method and constructor Overridding 
+    
+    Abstarction 
+        Hiding the implimentation part and showing only the required essential part is known as Abstarction
+        A class having one or more abstarct method then we call it as abstract class 
+        From the Module abc, we need to import ABC,abstractmethod and inherit the class with ABC and decorate the method with @abstractmethod , then it becomes abstarct class
+        and we can't create object for abstarct class 
+
+
+
+
+
+
+        
+
+
+'''
