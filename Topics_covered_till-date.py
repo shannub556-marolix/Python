@@ -193,6 +193,15 @@ oops
         A class having one or more abstarct method then we call it as abstract class 
         From the Module abc, we need to import ABC,abstractmethod and inherit the class with ABC and decorate the method with @abstractmethod , then it becomes abstarct class
         and we can't create object for abstarct class 
+    
+    Encapsulation
+        Restricting the access , to prevent accidental damage of data by making it has private, public, protected
+        public: access anywhere inside and outside the class without having any restrictions 
+        protected(_variable) : can be accessed within the class and the derived class and outside of that class and derived class 
+        private(__variable) : can be accessed within class and can't be accessed anywhere in the class ,child class or outside the class
+                  *But in a alternative way we can access private variables outside the class by "syntax: ref-obj._class-name__variable-name"
+        
+
 
 
 
