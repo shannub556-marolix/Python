@@ -201,9 +201,11 @@ oops
         private(__variable) : can be accessed within class and can't be accessed anywhere in the class ,child class or outside the class
                   *But in a alternative way we can access private variables outside the class by "syntax: ref-obj._class-name__variable-name"
         
-
-
-
+Exception handling 
+    exceptions are nothing but errors, which is an unexpected event that occurs during the programm execution
+    exceptions can be handled by using these two machenism
+    1.logial implementation
+    2.try except block
 
 
 
