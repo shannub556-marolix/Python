@@ -206,9 +206,15 @@ Exception handling
     exceptions can be handled by using these two machenism
     1.logial implementation
     2.try except block
+    3.finally block
 
-
-
+##############DJANGO
+what is django
+how does it works
+MVT architecture(model,view,template)
+    Model: Models.py file contains the database connections , where we store retrive data from database 
+    Views: views.py file contains the functionalities and the logic, which is an API(application progarmm interface)
+    Template: templates.py contains the templates
 
         
 
