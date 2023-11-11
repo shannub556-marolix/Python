@@ -215,6 +215,9 @@ MVT architecture(model,view,template)
     Model: Models.py file contains the database connections , where we store retrive data from database 
     Views: views.py file contains the functionalities and the logic, which is an API(application progarmm interface)
     Template: templates.py contains the templates
+creating project and application in django
+rendering html file and accesing that data admin panel
+saving data in database and retriving it from database
 
         
 
