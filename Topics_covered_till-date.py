@@ -212,12 +212,23 @@ Exception handling
 what is django
 how does it works
 MVT architecture(model,view,template)
-    Model: Models.py file contains the database connections , where we store retrive data from database 
+    Model: Models.py file contains the database connections , where we store and retrive data from database 
     Views: views.py file contains the functionalities and the logic, which is an API(application progarmm interface)
     Template: templates.py contains the templates
 creating project and application in django
 rendering html file and accesing that data admin panel
 saving data in database and retriving it from database
+Http methods
+    GET-retrive
+    POST-creating
+    Update/Patch-updating
+    delete-delete
+Http Response status code
+    Informational responses (100-199)
+    Successful responses (200-299)
+    Redirection messages (300-399)
+    Client error responses (400-499)
+    Server error responses (500-599)
 
         
 
