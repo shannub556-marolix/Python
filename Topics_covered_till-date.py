@@ -218,6 +218,7 @@ MVT architecture(model,view,template)
 creating project and application in django
 rendering html file and accesing that data admin panel
 saving data in database and retriving it from database
+Adding multiple paths and html pages to our project
 Http methods
     GET-retrive
     POST-creating
