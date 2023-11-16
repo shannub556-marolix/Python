@@ -50,7 +50,6 @@ string
         swap case method
     isalnum() 
     isalpha()
-    isnum()
     isdigit()
     islowe()
     isupper()
