@@ -17,7 +17,10 @@ def application(request):
         y=Weather.objects.all()
         serilizer=Weatherseralizers(y,many=True)
         l=serilizer.data
-        current_city=l[-1]['city']
+        try:
+            current_city=l[-1]['city']
+        except:
+            current_city='mumbai'
         api = '1225f09c1a0407c6edd97e9f8f47baad'
         get_weather = requests.get(f"https://api.openweathermap.org/data/2.5/weather?q={current_city}&units=imperial&APPID={api}").json()
         data={
