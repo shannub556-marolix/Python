@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="yellow">
+<h1>
+    Welcome to Weather App
+</h1>
+<form action="" method="POST">
+{% csrf_token %}
+    <label for="city">Enter the name of city to fetch temparature:</label><br>
+    <input type="text" id="city" name="city" ><br>
+     <input type="submit" value="Submit">
+</form>
+
+
+<div align="center">
+    <h2>WEATHER REPORT AT {{x.city}} [{{x.date}}]</h2>
+    <p>Temprature : {{x.temp}}F</p>
+    <p>Feels like : {{x.feels_like}}F</p>
+    <p>Minimum Temprature : {{x.min_temp}}F</p>
+    <p>Maximum Tempararture : {{x.max_temp}}F</p>
+    <p>Pressure : {{x.pressure}}</p>
+    <p>Humidity : {{x.humidity}}</p>
+</div>
+
+</body>
+</html>
