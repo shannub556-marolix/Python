@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="yellow">
+<div align="center">
+<h1>
+    Welcome to Weather App
+</h1>
+<form action="" method="POST" >
+{% csrf_token %}
+    <label for="city">Enter the name of city to fetch temparature:</label><br>
+    <input type="text" id="city" name="city" ><br>
+     <input type="submit" value="Submit">
+</form>
+
+
+</div>
+
+</body>
+</html>
