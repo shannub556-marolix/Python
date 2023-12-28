@@ -235,7 +235,7 @@ Requests and Responses
 CURD(create, update, Read, Delete) operations 
 Creating users and generating tokens for that user
 Authentication and Authirization (Token Based Authentication)
-Installing and initializing Postgresql
+Installing and configuring Postgresql to our project
 
         
 
