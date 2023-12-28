@@ -219,7 +219,7 @@ rendering html file and accesing that data admin panel
 saving data in database and retriving it from database
 Adding multiple paths and html pages to our project
 Http methods
-    GET-retrive
+    GET-retrive/Read
     POST-creating
     Update/Patch-updating
     delete-delete
@@ -229,6 +229,13 @@ Http Response status code
     Redirection messages (300-399)
     Client error responses (400-499)
     Server error responses (500-599)
+Serilizers 
+REST API(Django restframework)
+Requests and Responses 
+CURD(create, update, Read, Delete) operations 
+Creating users and generating tokens for that user
+Authentication and Authirization (Token Based Authentication)
+Installing and initializing Postgresql
 
         
 
