@@ -140,17 +140,34 @@ oops
         why and what happens when we call constructor
     types of variable
         instance variable = variable which are intialized at the time of object creation   
-            how to declare and in how many ways we can declare   
+            how to declare and in how many ways we can declare  
+                with the help of self keyword we will declare them inside instance method and constructor and outside class with object reference variable
+                we can declare them in inside constructor and instance methods 
+                and outside class with both class name and object reference variable, but in standard way we prefer object reference variable 
             how to delete 
+                inside class instance variables can be deleted inside instances methods only with del keyword 
+                outside the class, with the help of object reference or class name we can delete them by using del keyword
             how to access and how to modify
+                inside class in instance method and constructor we can acceee and modify them with the help of self keyword
+                and outise class with class name or object refernce variable 
         static/class variable= values which remains same from object to object are called static or class variable
             how to declare and in how many ways we can declare   
+                inside class and outside method we can declare direcly , inside methods with help of class name 
+                outside class with class name 
             how to delete 
+                inside class and outside methods we can do it directly by using del keyword 
+                inside class and inside methods we use class name with del keyword 
+                outside a class we use class name and del keyword 
             how to access and how to modify
+                inside class we can access and modify them with the help of class name
+                and outisde the class with class name or object refernce variable
         local variable = variable which are declared inside methods and that are deleted after execution 
             how to declare and in how many ways we can do that
-            how to delete 
+                inside class in inside method without self or without class name we can create them 
+            how to delete
+                inside method where local variable are declared there only we need to use del keyword and delete them  
             where can we acces and modify
+                inside method where local variables are declared there only we can access and modify them
     types of methods 
         instance method= we declare instance variables iniside method and if we pass first variable as self 
         class method = we declare static variable inside method and pass cls as first variable and will decorate that method with classmethod using decorator
@@ -186,6 +203,26 @@ oops
         Executing the same thing in different way like, '+' is concatination in terms of string and addition interms of integers
         Overloading : Python supports Operator Overloading('+')
         Overridding : python supports Method and constructor Overridding 
+            constructor overriding 
+                class parent:
+                    def __init__(self,k):
+                        self.instvar=k
+                    def f(self):
+                        print("this f method displays parent class instance variable",self.instvar)
+
+                class child(parent):
+                    def __init__(self,k,l):
+                        super().__init__(k)
+                        self.instvar1=l
+                    def f1(self):
+                        print("this f1 method displays child class instance variable",self.instvar1)
+                        
+                ob1=child(10,20)
+                ob1.f1()
+                ob1.f()
+
+            Output:this f1 method displays child class instance variable 20
+                this f method displays parent class instance variable 10
     
     Abstarction 
         Hiding the implimentation part and showing only the required essential part is known as Abstarction
