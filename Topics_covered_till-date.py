@@ -274,7 +274,34 @@ Creating users and generating tokens for that user
 Authentication and Authirization (Token Based Authentication)
 Installing and configuring Postgresql to our project
 
-        
+    
+
+
+SQL
+These SQL commands are mainly categorized into five categories: 
+
+DDL - Data Definition Language
+        Create
+        Drop
+        Alter
+        Truncate
+        comment
+        rename
+DQL - Data Query Language
+        Select
+DML - Data Manipulation Language
+        Insert
+        update
+        delete
+        lock
+DCL - Data Control Language
+        grant
+        revoke
+TCL - Transaction Control Language
+        commit
+        rollback
+        savepoint
+
 
 
 '''
